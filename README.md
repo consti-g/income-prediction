@@ -2,7 +2,6 @@
 
 This project is part of Dataiku's Technical Assessment. This project aims to explore and predict income trends in the United States by examining demographic characteristics and identifying influential factors affecting income levels. Utilizing a dataset provided by the US Census Bureau, this study seeks to predict whether an individual earns more or less than $50,000 a year.
 
-
 ### Goals:
 - **Examine** demographic characteristics across the US.
 - **Identify** key factors influencing income prediction.
