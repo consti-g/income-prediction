@@ -56,5 +56,54 @@ project-directory/
 
 ```
 
+### Environment Setup and Project Execution
 
+To ensure a smooth execution of the analysis, follow these steps to set up your environment and run the project.
 
+#### 1. Install Virtual Environment (If Not Already Installed)
+
+If you haven't installed `virtualenv` globally:
+
+```bash
+pip install virtualenv
+```
+
+#### 2. Create and Activate Virtual Environment
+
+- Create Virtual Environment:
+
+Navigate to your project directory and create a virtual environment:
+
+```bash
+virtualenv venv
+```
+
+- Activate Virtual Environment:
+
+On windows:
+
+```bash
+venv\Scripts\activate
+```
+
+On macOS and Linux:
+
+```bash
+source venv/bin/activate
+```
+
+#### 3. Install Project Dependencies
+
+With the virtual environment activated:
+
+```bash
+pip install -r requirements.txt
+```
+
+#### 4. Run Jupyter Notebook
+
+Still within the virtual environment, start the Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
