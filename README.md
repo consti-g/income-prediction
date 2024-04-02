@@ -36,6 +36,7 @@ Before running the analysis, you'll need to set up the dataset used in this proj
    - `census_income_learn.csv`: The training set.
    - `census_income_metadata.txt`: Metadata describing the dataset features and values.
 
+```
 project-directory/
 │
 ├── figures/
@@ -53,7 +54,7 @@ project-directory/
 │
 └── README.md
 
-
+```
 
 
 
